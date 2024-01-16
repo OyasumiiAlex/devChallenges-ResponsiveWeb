@@ -1,0 +1,151 @@
+/*Importar fuentes de google*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*Estilos del HTML*/
+html {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    /*Hace que los elementos ocupen el 100 de la pagina*/
+    min-height: 100%;
+    background-color: #F9EFDB;
+}
+
+.header{
+    grid-area: header;
+    background-color: #D4F7EF;
+}
+
+.header > h6 {
+    font-family: Inconsolata;
+    color: #333333;
+    padding: 10px;
+    border: 5px;
+}
+
+.main{
+    grid-area: main;
+}
+.items{
+    font-family: 'Space Mono', Arial, Helvetica, sans-serif;  
+}
+
+.items > h4 {
+    font-size: 64px;
+    color: #333333;
+    padding: 10px;
+    margin: 10px;
+    width: 700px;
+    
+
+}
+
+.items > h5 {
+    font-size: 24px;
+    color: #4F4F4F;
+    padding: 10px;
+    margin: 10px;
+    /*width: 400px;*/
+
+
+
+}
+
+.items > button{
+    /*height: 48px;*/
+    padding: 10px;
+    border: 10px;
+    margin: 15px;
+    font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #333333;
+    color: #FFFFFF;
+
+}
+
+.section{
+    grid-area: section;
+}
+.section > img {
+    height: 447.43px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #D4F7EF;
+}
+
+.footer > p, a{
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+.grid-container > * {
+    /*box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px*/
+    /*border: 1px solid;*/ 
+    padding: 10px;
+    text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    /*Gap es la separacion con otros elementos*/
+    gap: 10px;
+    grid-template: 
+    "header"  auto  
+    "main"    auto
+    "section" auto
+    "footer"  auto;
+}
+
+/*Media Querys para el tipo de dispositivo*/
+/*Mobile*/
+@media screen and (max-width: 601px) {
+    .grid-container {
+        /*Grid template columns y row sirve para acomodar las dimensiones*/
+        grid-template-columns: auto;
+        grid-template-rows: 60px auto auto 60px;
+        grid-template-areas: 
+        "header" 
+        "section"
+        "main"
+        "footer";
+        /*Otra manera para reducir el uso de grid column y row es de esta manera:
+        la tercera columna de este codigo indica las dimensiones de las filas y
+        la seccion de abajo las columnas*/
+        /*
+        grid-template: 
+        "header  header"  100px 
+        "section section" 50
+        "main    main   " auto
+        "footer  footer"  100px /
+        200px    auto; */
+        
+        
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+        grid-template-rows: 60px auto 60px;
+        grid-template-areas: 
+        "header  header"
+        "section main"
+        "footer  footer";
+
+    }
+}
