@@ -1,7 +1,9 @@
+![UNACH Sitio Web con React](https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/026cc45c-d661-4db6-8850-89df71800a0a)
+
 ##  Retos de diseño web responsivo
 
 #### Descripción
-<p>Este repositorio contiene plantillas basada en la ruta de retos marcada por la página DevChallenges.io</p>
+<p>Este repositorio contiene plantillas basada en la ruta de retos marcada por la página devChallenges.io</p>
 <p>Dicha ruta consiste en construir 8 plantillas con diseños predeterminados, aunque permite darle un <br>
    toque personal modificando la paleta de colores y usando imagenes propias</p>
 
@@ -35,13 +37,16 @@
 ## Listado de desafíos de DevChallenges
 
 ##### 1) 404 Not Found
-<p>Crear una página de error 404 siguiendo el diseño. La página debe ser receptiva. No mires la solución existente.</p>
-<p>A continuacion el mockup otorgado por la página analizado para su desarrollo:</p>
+<p>"Crear una página de error 404 siguiendo el diseño. La página debe ser receptiva. No mires la solución existente."</p>
+<p>A continuacion el mockup otorgado por la página previamente analizado para su desarrollo:</p>
 
+<img width="560" alt="MockupDimensionDesktop" src="https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/1f25ac1f-1561-4f30-b539-1c0932d01397">
+<img width="174" alt="MockupDimensionMobile" src="https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/56a6cbbf-10cf-4a26-a228-709ed9d3dbfb"><br>
 
-
+<br>
 <p>Vista previa del resultado:</p>
-
+<img width="660" alt="preview-404" src="https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/a2a68d15-6539-4817-b44b-a962bd67e2f2">
+<img width="144"alt="preview-mobile" src="https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/fa92cbef-a985-494d-8eee-6f34ed0d7e73">
 
 #### Licencia (MIT License)
 
