@@ -71,6 +71,11 @@ body {
     color: #FFFFFF;
 }
 
+.items > button:hover{
+    background-color: #80B6AA;
+    cursor: pointer;
+}
+
 .section{
     grid-area: section;
 }
@@ -90,6 +95,25 @@ body {
     font-size: 14px;
     color: #BDBDBD;
 }
+/*Estados de link*/
+/*link: propiedad cuando el link no ha sido visitado*/
+.links:link{
+    color:#BDBDBD;
+}
+
+/*visited: propiedad cuando el link ha sido visitado*/
+.links:visited{
+    color: #B9AA87;
+}
+/*hover: propiedad cuando se pasa el cursor*/
+.links:hover{
+    color: #80B6AA;
+}
+/*active: propiedad cuando el link esta siendo presionado*/
+.links:active{
+    color: #E4C0DF;
+}
+
 .grid-container > * {
     /*box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 10px*/
