@@ -1,0 +1,110 @@
+/*Aplicando estilos pero con flex*/
+/*Importando fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: #F9EFDB;
+}
+/*Styles header*/
+header {
+    display: flex;
+    background-color: #D4F7EF;
+    padding: 1.5rem;
+    justify-content: center;
+}
+.title-container{
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+.title-container > h1{
+    width: 278px;
+    font-family: 'PT Serif', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.title-container > h2, .title-container > p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: start;
+    width: 439px;
+}
+/*Main contents styles*/
+.main {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   margin: 2rem auto;
+
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+ }
+.card {
+    height: 383px;
+    width: 264px;
+    padding: 1rem;
+    margin: 2rem;
+    position: relative;
+    
+}
+.card > img {
+    height: 341px;
+    border-radius: 5px;
+}
+.card > h5{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: start;
+}
+.text-container{
+    font-family: 'PT Serif', Arial, Helvetica, sans-serif;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*Transform translate mueve el objeto en el eje x,y*/
+    transform: translate(-1rem, 1.1rem);
+}
+/*Main effects*/
+img:hover{
+    box-shadow: 4px 3px 10px #504f4f;
+}
+/*Footer styles*/
+footer{
+    background-color: #D4F7EF;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    color: #BDBDBD;
+}
+.footer > p, a{
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+/*Footer effects*/
+/*link: propiedad cuando el link no ha sido visitado*/
+.links:link{
+    color:#BDBDBD;
+}
+
+/*visited: propiedad cuando el link ha sido visitado*/
+.links:visited{
+    color: #B9AA87;
+}
+/*hover: propiedad cuando se pasa el cursor*/
+.links:hover{
+    color: #80B6AA;
+}
