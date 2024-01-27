@@ -1,0 +1,178 @@
+/*Aplicando estilos pero con flex*/
+/*Importando fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: #F9EFDB;
+}
+/*Styles header*/
+header {
+    display: flex;
+    background-color: #D4F7EF;
+    padding: 1.5rem;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+.title-container{
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+.title-container > h1{
+    width: 278px;
+    font-family: 'PT Serif', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.title-container > h2, .title-container > p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: start;
+    width: 439px;
+}
+/*Main contents styles*/
+main {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 2rem auto;
+
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+ }
+.card {
+    height: 383px;
+    width: 264px;
+    padding: 1rem;
+    margin: 2rem;
+    position: relative;
+    
+}
+.card > img {
+    height: 341px;
+    border-radius: 5px;
+}
+.card > h5{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: start;
+}
+.text-container{
+    font-family: 'PT Serif', Arial, Helvetica, sans-serif;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    text-orientation: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*Transform translate mueve el objeto en el eje x,y*/
+    transform: translate(-1rem, 1.1rem);
+}
+/*Card position to the middle cards*/
+#card2, #card5{
+    position: relative;
+    transform: translate(0, 5rem);
+}
+/*Main effects*/
+img:hover{
+    box-shadow: 4px 3px 10px #504f4f;
+}
+/*Footer styles*/
+footer{
+    background-color: #D4F7EF;
+    padding: 1.5rem;
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    color: #BDBDBD;
+}
+.footer > p, a{
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+/*Footer effects*/
+/*link: propiedad cuando el link no ha sido visitado*/
+.links:link{
+    color:#BDBDBD;
+}
+
+/*visited: propiedad cuando el link ha sido visitado*/
+.links:visited{
+    color: #B9AA87;
+}
+/*hover: propiedad cuando se pasa el cursor*/
+.links:hover{
+    color: #80B6AA;
+}
+/*Style for mobile*/
+/* Media queries para estilos móviles */
+@media screen and (max-width: 601px) {
+    /* Estilos para el header */
+    header {
+        padding: 1rem; /* Reducir el padding */
+        display: flex;
+        flex-direction: column;
+    }
+    .title-container{
+        margin: .3rem;
+    }
+    .title-container > h1 {
+        text-align: start;
+        font-size: 24px; /* Reducir el tamaño de la fuente */
+        width: auto; /* Permitir que el título ocupe todo el ancho */
+    }
+    .title-container > h2, .title-container > p {
+        padding: .5rem;
+        font-size: 14px; /* Reducir el tamaño de la fuente */
+        width: auto; /* Permitir que el texto ocupe todo el ancho */
+    }
+    /* Estilos para el contenido principal */
+    .main {
+        margin: 1rem auto; /* Reducir el margen */
+    }
+    .container {
+        flex-direction: row; /* Cambiar la dirección del contenedor a columna */
+        align-items: normal; /* Centrar los elementos */
+    }
+    .card {
+        width: 156px; /* Utilizar todo el ancho disponible con margen */
+        margin: 1rem 2rem; /* Añadir margen a los lados */
+        height: 237px; /* Permitir que la altura se ajuste al contenido */
+    }
+    /* Alinear las tarjetas en la segunda columna */
+    .card:nth-child(even) {
+        margin-left: 0; /* Eliminar el margen izquierdo en la segunda columna */
+        margin-right: auto; /* Centrar las tarjetas en la segunda columna */
+    }
+    /* Alinear las tarjetas en la primera columna */
+    .card:nth-child(odd) {
+        margin-right: 0; /* Eliminar el margen derecho en la primera columna */
+        margin-left: auto; /* Centrar las tarjetas en la primera columna */
+    }
+    .card > h5{
+        font-size: 14px;
+    }
+    .card > img {
+        width: 100%; /* Asegurar que la imagen ocupe todo el ancho */
+        height: auto; /* Permitir que la altura se ajuste automáticamente */
+    }
+    .text-container {
+        font-size: 10px;
+    }
+
+    /* Estilos para el footer */
+    footer {
+        padding: 1rem; /* Reducir el padding */
+        font-size: 12px; /* Reducir el tamaño de la fuente */
+    }
+}
