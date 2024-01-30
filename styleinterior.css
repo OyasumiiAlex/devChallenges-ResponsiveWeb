@@ -54,6 +54,7 @@ header {
 /*Actions to the header*/
 .opc-content >ol:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 /*-------Main contents styles-------*/
 main {
@@ -89,8 +90,9 @@ main {
     margin: 0.5rem;
     background-color: transparent;
     border: none;
+    border-radius: .5rem;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 1rem;
     font-family: 'Monserrat';
     font-size: 18px;
     text-align: center;
@@ -99,6 +101,10 @@ main {
     padding-left: 1rem;
     font-size: 24px;
     font-weight: bold;
+}
+/*Effect button to the section text container*/
+.text-container >button:hover{
+    background-color: #80B6AA;
 }
 /* img-content style*/
 .img-content{
@@ -114,6 +120,7 @@ main {
 }
 /*Container where is the pfp and info-desing*/
 .desing-content{
+    border-radius: 0.7rem;
     width: 330px;
     height: 170px;
     padding: auto;
@@ -137,7 +144,6 @@ main {
     text-align: start;
     position: relative;
     transform: translate(6rem,-4.3rem);
-
 }
 .text-desing-content > h6{
     font-size: 14px;
@@ -163,7 +169,10 @@ main {
     font-size: 24px;
     text-align: normal;
 }
-
+/*Design content effect*/
+.desing-content:hover{
+    box-shadow: 4px 3px 10px #504f4f;
+}
 /*------Footer styles------*/
 footer{
     background-color: #D4F7EF;
@@ -188,6 +197,7 @@ footer{
 .links:hover{
     color: #80B6AA;
 }
+
 /*Style for mobile*/
 /* Media queries para estilos móviles */
 @media screen and (max-width: 601px) {
