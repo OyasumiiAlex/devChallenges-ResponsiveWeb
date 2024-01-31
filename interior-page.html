@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleinterior.css">
+    
     <link rel="icon" href="src/icons/devchallenges.png" />
     <title>Interior-page</title>
 </head>
 <body>
     <header>
-        <!--Logo-->
+        <!--Logo container-->
         <div class="logo-content">
             <h1>This interior</h1>
         </div>
-        <!--Bar options-->
+        <!--Bar options container-->
         <div class="opc-content">
-            <ol>Home</ol>
-            <ol>Collection</ol>
-            <ol>About</ol>
-            <ol>Contact</ol>
+            <!-- Contenido del logo (mostrado en dispositivos móviles) -->
+            <div class="logo-menu">
+                <img id="open" src="src/icons/bar-menu.png" alt="logo-menu">
+            </div>
+            <!-- Opciones del menú (mostrado en dispositivos de escritorio) -->
+            <nav class="nav-bar">
+                <!--Button close the menu mobile version (no visible on desktop)-->
+                <button id="close" class="mobile-button">X</button>
+                <div class="list-opc">
+                    <ol>Home</ol>
+                    <ol>Collection</ol> 
+                    <ol>About</ol>
+                    <ol>Contact</ol>
+                </div>
+            </nav>  
         </div>
     </header>
     <main>               
@@ -43,7 +55,7 @@
                 </div>
                 <!--Info about the desgin-->
                 <div id="info-desing">
-                    <h1>Desing in 2020 by Aliza webber</h1>
+                    <h1>Desing in 2020 by <br> Aliza webber</h1>
                 </div>
             </div>
         </section>
@@ -54,3 +66,5 @@
     </footer>
 </body>
 </html>
+<!--Precaución: Este script no funciona si se añade en la etiqueta de head-->
+<script src="index.js"></script>
