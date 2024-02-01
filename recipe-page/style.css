@@ -19,7 +19,6 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     padding: 0.5rem;
     margin: 1rem;
 }
@@ -31,7 +30,6 @@ header{
 .title-text{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-align: justify;
@@ -50,7 +48,6 @@ header{
 /*banner style*/
 .banner{
     display: flex;
-    border: 1px solid black;
     padding: 1rem;
     margin: 1.5rem 2.5rem;
     align-items: center;
@@ -64,12 +61,10 @@ header{
 }
 /*recipe content style*/
 .recipe-content{
-    border: 1px solid orangered;
     margin: 1.5rem 2.5rem;
 }
 /*Box ingredients*/
 .container-1{
-    border: 2px solid red;
     margin: 1rem 2rem;
     display: flex;
     flex-direction: row;
@@ -79,11 +74,9 @@ header{
 .recipe-listingredients{
     padding: 1.5rem;
     margin: 0.5rem 3rem;
-    border: 1px solid black; 
     width: 581px;   
 }
 .recipe{
-    border: 1px solid blue;
     padding: auto;
     margin: 2rem 0rem;  
 }
@@ -98,7 +91,7 @@ header{
 .checkboxs{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     margin: 0.5rem 0rem;
 }
@@ -107,6 +100,7 @@ header{
     font-size: 16px;
     color: #333333;
     margin-left: 0.5rem;
+    text-align: start;
 }
 
 /*card container times styles*/
@@ -130,7 +124,6 @@ header{
     height: 34px;
 }
 .yields, .times{
-    border: 1px solid blue;
     margin: 1rem 1rem;
 }
 .row-content{
@@ -163,18 +156,15 @@ h2{
 }
 /*box instruccions*/
 .container-2{
-    border: 2px solid red;
     margin: 1rem 2rem;   
 }
 .instruction-container{
     width: 581px;
     padding: 1.5rem;
     margin: 0.5rem 3rem;
-    border: 1px solid black;
 }
 .instru-num{
     width: 528px;
-    border: 1px solid green;
     padding: 1rem;
     margin: 1rem -1rem;
     display: flex;
@@ -194,7 +184,6 @@ h2{
 }
 /*style of source container*/
 .source-container{
-    border: 1px solid green;
     width: 528px;
     padding: 0.5rem;
     margin: 1rem 4rem;
@@ -229,3 +218,5 @@ footer {
 .links:hover {
     color: #80B6AA;
 }
+
+/*version mobile pendiente*/
