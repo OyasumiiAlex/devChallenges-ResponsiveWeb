@@ -68,5 +68,14 @@
 <img width="460" alt="PreviewDesktop-interior" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/5659cb72-0e28-4ebe-b7d4-6ec85e3d7e2f">
 <img width="150" alt="PreviewMobile-interior" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/40aa7805-2b4d-41bb-bad1-e390f40d3edc">
 
+##### 3) Recipe page
+
+<p>Preview Mockup</p>
+<img width="460" alt="MockupDesktoprecipe" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/965c2459-274b-4c21-97d3-d187a020d55f">
+
+<p>Result</p>
+<img width="360" alt="MockupDesktoprecipe" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/e240ac6d-2f1d-49b5-8a01-570432cc54dd">
+<img width="115" alt="MockupDesktoprecipe" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/1ae6afbd-96bf-442a-ba4b-bdd7bd6c16f8">
+
 #### Licencia (MIT License)
 
