@@ -3,18 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     background-color: #F9EFDB;
 }
+
 /*-------Styles header-------*/
-header{
+header {
     background-color: #D4F7EF;
     padding: 1.5rem;
 }
-.title-container{
+
+.title-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,12 +25,14 @@ header{
     padding: 0.5rem;
     margin: 1rem;
 }
-.title-container > h1{
+
+.title-container>h1 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 48px;
     margin: 0.5rem;
 }
-.title-text{
+
+.title-text {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -38,7 +43,8 @@ header{
     width: 592px;
     margin: 0.5rem 2rem;
 }
-.title-text >img{
+
+.title-text>img {
     width: 13px;
     height: 8px;
     margin: 0.5rem;
@@ -46,41 +52,46 @@ header{
 
 /*-----Main content style-----*/
 /*banner style*/
-.banner{
+.banner {
     display: flex;
     padding: 1rem;
     margin: 1.5rem 2.5rem;
     align-items: center;
     justify-content: center;
 }
-.banner > img{
+
+.banner>img {
     box-sizing: border-box;
     width: 969px;
     height: 470px;
     object-fit: contain;
 }
+
 /*recipe content style*/
-.recipe-content{
+.recipe-content {
     margin: 1.5rem 2.5rem;
 }
+
 /*Box ingredients*/
-.container-1{
+.container-1 {
     margin: 1rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
-.recipe-listingredients{
+
+.recipe-listingredients {
     padding: 1.5rem;
     margin: 0.5rem 3rem;
-    width: 581px;   
+    width: 581px;
 }
-.recipe{
+
+.recipe {
     padding: auto;
-    margin: 2rem 0rem;  
+    margin: 2rem 0rem;
 }
-.recipe > h4{
+
+.recipe>h4 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #333333;
@@ -88,23 +99,25 @@ header{
     display: flex;
     flex-direction: row;
 }
-.checkboxs{
+
+.checkboxs {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin: 0.5rem 0rem;
 }
-.checkboxs > p{
+
+.checkboxs>p {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #333333;
     margin-left: 0.5rem;
-    text-align: start;
+    text-align: justify;
 }
 
 /*card container times styles*/
-.container-times{
+.container-times {
     box-sizing: border-box;
     width: 216px;
     height: 367px;
@@ -118,52 +131,62 @@ header{
     justify-content: center;
     box-shadow: 1px 1px 15px 1px #504f4f;
 }
-.icon-ctimes{
+
+.icon-ctimes {
     box-sizing: border-box;
     width: 34px;
     height: 34px;
 }
-.yields, .times{
+
+.yields,
+.times {
     margin: 1rem 1rem;
 }
-.row-content{
+
+.row-content {
     display: flex;
     flex-direction: row;
     padding: 0.5rem;
     margin: 0.5rem 0rem;
 }
-.data-times{
+
+.data-times {
     display: flex;
     flex-direction: column;
     margin-left: 0.5rem;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-
 }
-.data-times > h5{
+
+.data-times>h5 {
     font-size: 10px;
     margin: 0.1rem;
 }
-.data-times > h6{
+
+.data-times>h6 {
     font-size: 14px;
     margin: 0.1rem;
 }
+
 /*Styles for both titles h2 of instruction-container and recipe-listingredients*/
-h2{
+h2 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #333333;
 
 }
+
 /*box instruccions*/
-.container-2{
-    margin: 1rem 2rem;   
+.container-2 {
+    margin: 1rem 2rem;
 }
-.instruction-container{
+
+.instruction-container {
     width: 581px;
     padding: 1.5rem;
     margin: 0.5rem 3rem;
 }
-.instru-num{
+
+.instru-num {
     width: 528px;
     padding: 1rem;
     margin: 1rem -1rem;
@@ -172,18 +195,22 @@ h2{
     justify-content: start;
     align-items: flex-start;
 }
-.instru-num > img{
+
+.instru-num>img {
     box-sizing: border-box;
     height: 36px;
     width: 36px;
 }
-.instru-num > p{
-    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+
+.instru-num>p {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 16px;
     padding: 0.3rem;
+    text-align: justify;
 }
+
 /*style of source container*/
-.source-container{
+.source-container {
     width: 528px;
     padding: 0.5rem;
     margin: 1rem 4rem;
@@ -219,4 +246,236 @@ footer {
     color: #80B6AA;
 }
 
-/*version mobile pendiente*/
+/*version mobile*/
+@media screen and (max-width: 601px) {
+    * {
+        margin: 0;
+    }
+    header {
+        background-color: #D4F7EF;
+        padding: 1.5rem;
+    }
+
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.2rem;
+        margin: auto;
+    }
+
+    .title-container>h1 {
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        margin: 0.5rem;
+    }
+
+    .title-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        color: #4F4F4F;
+        height: 90px;
+        width: 286px;
+        margin: 0.3rem 0rem;
+    }
+
+    .title-text>img {
+        width: 13px;
+        height: 8px;
+        margin: 0.3rem;
+    }
+    .title-text > i{
+        width: 250px;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-align: start;
+    }
+
+    /*-----Main content style-----*/
+    /*banner style*/
+    .banner {
+        display: flex;
+        padding: 0.2rem;
+        margin:auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner>img {
+        box-sizing: border-box;
+        width: 352px;
+        height: 202px;
+        object-fit: contain;
+    }
+
+    /*recipe content style*/
+    .recipe-content {
+        margin: auto;
+    }
+
+    /*Box ingredients*/
+    .container-1 {
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .recipe-listingredients {
+        padding: auto;
+        margin: auto;
+        width: 321px;
+    }
+
+    .recipe {
+        padding: auto;
+        margin: auto;
+    }
+
+    .recipe>h4 {
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #333333;
+        font-style: italic;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .checkboxs {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0.5rem 0rem;
+    }
+
+    .checkboxs>p {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #333333;
+        margin-left: 0.5rem;
+        text-align: justify;
+    }
+
+    /*card container times styles*/
+    .container-times {
+        box-sizing: border-box;
+        width: 352px;
+        height: 150px;
+        background-color: transparent;
+        padding: 0.5rem;
+        margin: auto;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: none;
+    }
+
+    .icon-ctimes {
+        box-sizing: border-box;
+        width: 17px;
+        height: 17px;
+    }
+
+    .yields{
+        margin: 0.2rem 1rem;
+    }
+    .times{
+        margin: 0.2rem 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row-content {
+        display: flex;
+        flex-direction: row;
+        padding: 0.5rem;
+        margin: 0.5rem 0rem;
+    }
+
+    .data-times {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+
+    .data-times>h5 {
+        font-size: 8px;
+        margin: 0.1rem;
+    }
+
+    .data-times>h6 {
+        font-size: 10px;
+        margin: 0.1rem;
+    }
+
+    /*Styles for both titles h2 of instruction-container and recipe-listingredients*/
+    h2 {
+        font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #333333;
+
+    }
+
+    /*box instruccions*/
+    .container-2 {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .instruction-container {
+        padding: auto;
+        margin: auto;
+        width: 342px;
+    }
+
+    .instru-num {
+        width: 321px;
+        padding: auto;
+        margin: 0.3rem 0.3rem 0.3rem -1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .instru-num>img {
+        box-sizing: border-box;
+        height: 36px;
+        width: 36px;
+    }
+
+    .instru-num>p {
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 0.3rem;
+        text-align: justify;
+    }
+
+    /*style of source container*/
+    .source-container {
+        width: 342px;
+        padding: auto;
+        margin: 0.3rem 0.3rem 0.3rem 1rem;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+        color: #BDBDBD;
+    }
+
+    /*------Footer styles------*/
+    footer {
+        background-color: #D4F7EF;
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        color: #BDBDBD;
+    }
+
+}
