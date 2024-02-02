@@ -147,7 +147,6 @@ footer {
 .links:hover {
     color: #80B6AA;
 }
-
 /*---------------------------Style for mobile---------------------------*/
 /* Media queries para estilos móviles */
 @media screen and (max-width: 768px) {
