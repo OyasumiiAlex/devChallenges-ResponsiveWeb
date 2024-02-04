@@ -10,10 +10,171 @@
 </head>
 <body>
     <header>
-
+        <h1>Checkout</h1>
     </header>
     <main>
-
+        <!--Section form-->
+        <section class="section">
+            <!--Contact information container-->
+            <section class="section-datageneral" id="sg1">
+                <h2>Contact infomation</h2>
+                <!--Div email-->
+                <div class="form-container">
+                    <h2>Email</h2>
+                    <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/email-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Enter your name...">
+                    </div>
+                </div>
+                <!--Div phone-->
+                <div class="form-container">
+                    <h2>Phone</h2>
+                    <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/phone-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Enter your phone...">
+                    </div>
+                </div>
+            </section>
+            <!--Shipping adress container-->
+            <section class="section-datageneral" id="sg2">
+                <h2>Shipping address</h2>
+                <!--Div fullname-->
+                <div class="form-container">
+                    <h2>Full name</h2>
+                    <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/user-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Enter your full name...">
+                    </div>
+                </div>
+                <!--Div adress-->
+                <div class="form-container">
+                    <h2>Address</h2>
+                    <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/home-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Enter your adress...">
+                    </div>
+                </div>
+                <!--Div city-->
+                <div class="form-container">
+                    <h2>City</h2>
+                    <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/city-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Your city...">
+                    </div>
+                </div>
+                <!--Div country & postal-->
+                <div class="double-form-container">
+                    <div class="form-container">
+                        <h2>Country</h2>
+                        <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/country-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Your country...">
+                    </div>
+                    </div>
+                    <div class="form-container">
+                        <h2>Postal code</h2>
+                        <!--label container-->
+                    <div class="container-label">
+                        <label for="name">
+                            <img class="icon" src="../src/icons/cp-icon.png" alt="icon">
+                        </label>
+                        <input type="text" name="" id="" placeholder="Your postal code...">
+                    </div>
+                    </div>
+                </div>
+                <!--div checkbox input-->
+                <div class="checkbox-container">
+                    <input type="checkbox">
+                    <label for="">Save this information for next time</label>
+                </div>
+                <!--Button continue-->
+                <div class="button-form-container">
+                    <button>Continue</button>
+                </div>
+            </section>
+        </section>
+        <!--section card products-->
+        <section class="section">
+            <!--card-->
+            <section class="card">
+                <!-------Items boxes------>
+                <div class="box-items">
+                    <!--item 1-->
+                    <div class="item">
+                        <!--image product-->
+                        <img src="../src/images/item-buy-1.png" alt="">
+                        <!--detail item section-->
+                        <section class="details">
+                            <h4>Vintage Backbag</h4>
+                            <!--price content-->
+                            <div class="price">
+                                <h5>$54.99</h5>
+                                <h6>$94.99</h6>
+                            </div>
+                            <!--add item input-->
+                            <div class="perbutton">
+                                <span class="button-icon">-</span>
+                                <span class="input-span">1</span>
+                                <span class="button-icon">+</span>
+                            </div>     
+                        </section>
+                    </div>
+                    <!--item 2-->
+                    <div class="item">
+                        <!--image product-->
+                        <img src="../src/images/item-buy-2.png" alt="">
+                        <!--detail item section-->
+                        <section class="details">
+                            <h4>Levi Shoes</h4>
+                            <!--price content-->
+                            <div class="price">
+                                <h5>$74.99</h5>
+                                <h6>$124.99</h6>
+                            </div>
+                            <!--add item input-->
+                            <div class="perbutton">
+                                <span class="button-icon" id="plus">-</span>
+                                <span class="input-span">1</span>
+                                <span class="button-icon" id="minus">+</span>
+                            </div> 
+                        </section>
+                    </div>
+                </div>
+                <!------total box------->
+                <div class="box-total">
+                    <!--shipping-->
+                    <hr>
+                    <div class="total-texts">
+                        <h3>Shipping</h3>
+                        <p>$19</p>
+                    </div>
+                    <hr>
+                    <!--total-->
+                    <div class="total-texts">
+                        <h3>Total</h3>
+                        <p>$148.98</p>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
     <footer>
         <!-- Contenido del pie de página, como información de contacto, enlaces, etc. -->
