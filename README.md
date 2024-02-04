@@ -107,5 +107,15 @@ se empieza a desbordar a travez de su contenedor por lo que se limita a una cant
 <img width="400" alt="PreviewDesktopGalleryV2" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/749ae5bb-29cf-4b91-8b2c-6d310b8c08f3">
 <img width="107" alt="PreviewMobileGalleryV2" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/fc04c1e1-17ec-41c1-8008-eda33b342c0e">
 
+##### 6) checkout page
+
+<p>Preview Mockup</p>
+<img width="460" alt="MockupCheckoutDesktop" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/4ddf3a4e-3d38-4881-acb6-431de4bda43a">
+<img width="100" alt="MockupCheckout" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/41180bd2-0856-463e-818b-30cbcfcf5d4e">
+
+<br><p>Result</p>
+<img width="460" alt="PreviewCheckoutDesktop" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/d5499c53-6c23-42dc-8dd4-d64cc96b3686">
+<img width="128" alt="PreviewCheckoutMobile" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/0b868e6d-6cef-415f-a5c8-bedb137dc822">
+
 #### Licencia (MIT License)
 
