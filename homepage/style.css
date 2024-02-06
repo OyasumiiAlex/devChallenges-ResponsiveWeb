@@ -22,7 +22,6 @@ header {
 }
 
 .logo-header {
-    border: 1px solid wheat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +53,6 @@ header {
 }
 
 .menu-desktop {
-    border: 1px solid wheat;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
@@ -77,7 +75,6 @@ main {
 /*Sections content style*/
 .content {
     box-sizing: border-box;
-    border: 1px solid black;
     width: auto;
     height: auto;
     padding: 0.3rem;
@@ -86,7 +83,6 @@ main {
 
 /*section banner*/
 .titles-banner {
-    border: 1px solid blue;
     width: 543px;
     height: auto;
     margin: 1.5rem;
@@ -106,17 +102,16 @@ main {
 
 #s1>img {
     box-sizing: border-box;
-    width: 1220px;
-    height: 354px;
+    width: 100%;
+    height: 100%;
     border-radius: 1rem;
     margin: auto;
-    padding: 0.2rem;
+    object-fit: cover;
 
 }
 
 /*Intro section*/
 .introcontainer {
-    border: 1px solid blue;
     width: 366px;
     height: 280;
     padding: 0.5rem;
@@ -145,7 +140,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 1px solid magenta;
     width: 350px;
     height: auto;
     padding: 0.3rem;
@@ -211,7 +205,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px solid blue;
     width: auto;
     height: auto;
     padding: 0.5rem;
@@ -219,7 +212,6 @@ main {
 }
 
 .offer-container>h2 {
-    border: 1px solid green;
     width: 346px;
     height: 108px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -312,9 +304,13 @@ main {
     color: #F2F2F2;
 }
 
+/*select effect style of button*/
+.offer-card>button:hover {
+    background-color: #ADD2D0;
+}
+
 /*Designs sections styles*/
 .desing-subdivision {
-    border: 1px solid aqua;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -322,7 +318,6 @@ main {
 
 .desing-subdivision>h2 {
     display: flex;
-    border: 1px solid magenta;
     width: 448px;
     height: 108px;
     padding: 0rem 1rem;
@@ -334,11 +329,9 @@ main {
 
 /*design-card style*/
 .design-card {
-    border: 1px solid magenta;
     box-sizing: border-box;
     height: 635px;
     width: 500px;
-    background-color: #F2F2F2;
     margin: 1rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
@@ -359,20 +352,17 @@ main {
     align-items: flex-start;
     justify-content: center;
     padding: 0.3rem;
-    border: 1px red solid;
     margin: 1rem;
     margin-top: 1rem;
 }
 
 .dcard-texts>p {
-    border: 1px solid green;
     font-size: 14px;
     color: #828282;
     padding: 0.3rem
 }
 
 .dcard-texts>h4 {
-    border: 1px solid green;
     font-size: 24px;
     color: #333333;
     padding: 0.3rem
@@ -383,17 +373,17 @@ main {
     height: 500px;
     margin: auto;
     border-radius: 1rem;
-    background-color: #ADD2D0;
+    background-color: transparent;
 }
 
 .dcard-square>img {
     border-radius: 1rem;
     width: 500px;
     height: 500px;
+    object-fit: cover;
 }
 
 .designtitle-container {
-    border: 1px solid yellowgreen;
     text-align: center;
     width: auto;
     height: auto;
@@ -420,14 +410,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid blue;
     width: auto;
     height: auto;
     margin: 0.5rem 4rem;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
-.textteam{
-    border: 1px solid red;
+
+.textteam {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -436,6 +425,7 @@ main {
     margin: 1rem;
 
 }
+
 .textteam>h6 {
     width: 280px;
     height: auto;
@@ -463,7 +453,6 @@ main {
     justify-content: center;
     align-items: center;
     margin: auto;
-    border: 3px solid red;
     width: auto;
     height: auto;
 }
@@ -471,9 +460,8 @@ main {
 .subimagecont {
     display: flex;
     flex-direction: column;
-    border: 1px solid orange;
     width: auto;
-    height:auto;
+    height: auto;
     padding: 0.2rem;
     margin: 0.3rem;
 }
@@ -504,7 +492,6 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid slateblue;
     width: 937px;
     height: 162px;
     margin: 0.5rem;
@@ -528,7 +515,6 @@ main {
 }
 
 .div-clientdata {
-    border: 1px solid red;
     width: 191px;
     height: auto;
     padding: 0.3rem;
@@ -558,31 +544,52 @@ footer {
 }
 
 .footercontent {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .container-footer {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 350px;
+    align-items: flex-start;
+
+    padding: 0.3rem;
+}
+
+.container-footer>p {
+    padding: 0.3rem;
+    margin: 0.5rem 0rem;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #828282;
 }
 
 #menu-footer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 0.3rem;
     font-size: 18px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     color: #333333;
 }
 
+#social-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    margin: auto;
+}
+
 #social-footer>img {
     width: 70px;
     height: 70px;
+    padding: 0.3rem;
 }
 
 .container-footer>div>img {
