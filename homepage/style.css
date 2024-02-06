@@ -38,16 +38,24 @@ header {
 }
 
 .menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: right;
     width: auto;
     height: auto;
     padding: 0.5rem;
+    margin: 0.3rem;
 }
 
-/*Logo no visible para desktop*/
-.menu-mobile {
+/*Logo y boton no visible para desktop*/
+.menu-mobile,
+.nav-bar>button {
     display: none;
+    width: 24px;
+    height: auto;
 }
 
+/*Style menu*/
 .menu-desktop {
     display: flex;
     flex-direction: row;
@@ -611,13 +619,16 @@ footer {
 
 /*-------------Version mobile responsive------------*/
 @media screen and (max-width: 601px) {
+    * {
+        margin: 0;
+    }
 
     /*-------Styles header-------*/
     header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         background-color: #D4F7EF;
         padding: 1.5rem;
     }
@@ -629,7 +640,7 @@ footer {
         box-sizing: border-box;
         height: 50px;
         width: 50px;
-        margin: auto;
+        margin: 0.5rem;
     }
 
     .logo-header>img {
@@ -638,16 +649,29 @@ footer {
         padding: 0.5rem;
     }
 
-    /*Logo visible para mobile*/
-    .menu-mobile {
-        display: none;
-        box-sizing: border-box;
-        height: 24px;
-        width: 24px;
-        padding: 0.3rem;
+    /*Menu mobile*/
+    .menu-section{
+        display: flex;
+        justify-content: space-between;
     }
-    /*menu options desktop*/
-    .menu-section {
+    .menu-mobile {
+        display: block;
+        display: flex;
+        width: 38px;
+        text-align: center;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-mobile>img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0.3rem;
+        padding: 0.2rem;
+    }
+
+    .nav-bar {
         opacity: 0;
         visibility: hidden;
         display: flex;
@@ -655,22 +679,54 @@ footer {
         position: absolute;
         top: 0;
         right: 0;
-        bottom: o;
         background-color: #80B6AA;
         border-radius: 0.5rem;
         padding: 2.5rem;
-        box-shadow: 0 0 0 100vmax rbga(0,0,0,0.5);
+        box-shadow: 0 0 0 100vmax rbga(0, 0, 0, 0.5);
     }
-    .menu-section.visible{
+
+    nav.visible {
         opacity: 1;
         visibility: visible;
     }
 
-    .menu-desktop{
+    /*Style option list*/
+    .menu-desktop {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 24px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .menu-desktop>ol {
+        text-align: center;
+        padding: 1rem;
+        margin: 0.3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Style button inside menu drop-down*/
+    .nav-bar>button {
+        height: 35px;
+        width: 35px;
+        padding: 0.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        transform: translate(11rem, -1rem);
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        background-color: #C7D4EB;
+        border-radius: 1rem;
+        border: 1px solid gray;
     }
 
     /*----Main contents styles---*/
@@ -819,13 +875,12 @@ footer {
         justify-content: center;
         width: auto;
         height: auto;
-        padding: 0.5rem;
-        margin: 0.5rem;
+        margin: auto;
     }
 
     .offer-container>h2 {
-        width: 259px;
-        height: 72px;
+        width: auto;
+        height: auto;
         font-family: 'Poppins', Arial, Helvetica, sans-serif;
         font-size: 24px;
         text-align: start;
@@ -839,7 +894,7 @@ footer {
         width: 340px;
         height: 420px;
         padding: 1rem;
-        margin: auto 1rem;
+        margin: auto;
         border-radius: 1rem;
         background-color: transparent;
         font-family: 'Poppins', Arial, Helvetica, sans-serif;
@@ -855,7 +910,7 @@ footer {
         height: 67px;
         border-radius: 1rem;
         padding: 0.3rem;
-        margin: 0.5rem;
+        margin: 0.3rem;
 
     }
 
@@ -948,7 +1003,8 @@ footer {
     #dc3 {
         margin-top: auto;
     }
-/*fix*/
+
+    /*fix*/
     .dcard-texts {
         display: flex;
         flex-direction: column;
@@ -1066,11 +1122,11 @@ footer {
         width: auto;
         height: auto;
         padding: 0.2rem;
-        margin: 0.3rem;
+        margin: auto;
     }
 
     .subimagecont>img {
-        margin: 0.5rem 0.1rem;
+        margin: auto;
         border-radius: 1rem;
     }
 
@@ -1082,6 +1138,7 @@ footer {
     #pic2 {
         width: 144px;
         height: auto;
+        margin-bottom: 0.5rem;
     }
 
     #pic3 {
@@ -1090,10 +1147,11 @@ footer {
     }
 
     /*clients sections*/
-    #s6{
+    #s6 {
         display: flex;
         flex-direction: column;
     }
+
     .clients-subdivision {
         display: flex;
         flex-direction: row;
@@ -1101,6 +1159,7 @@ footer {
         height: auto;
         margin: 2rem;
     }
+
     .clients-subdivision>h2 {
         font-family: 'Poppins', Arial, Helvetica, sans-serif;
         font-size: 24px;
@@ -1162,7 +1221,7 @@ footer {
         align-items: start;
         padding: 0.3rem;
     }
-   
+
     #menu-footer {
         display: flex;
         justify-content: start;
@@ -1170,7 +1229,8 @@ footer {
         padding: 0.3rem;
         margin: 1rem;
     }
-    #menu-footer > ol{
+
+    #menu-footer>ol {
         font-size: 18px;
         font-family: 'Poppins', Arial, Helvetica, sans-serif;
         color: #333333;
@@ -1191,15 +1251,18 @@ footer {
         height: 70px;
         padding: 0.3rem;
     }
+
     #social-footer>div>img {
         padding: 0.3rem;
         width: 24px;
         height: 24px;
     }
-    #contact-footer{
+
+    #contact-footer {
         padding: 0.3rem;
         margin: 1rem;
     }
+
     #contact-footer>p {
         padding: 0.3rem;
         margin: 0.5rem 0rem;
