@@ -117,5 +117,15 @@ se empieza a desbordar a travez de su contenedor por lo que se limita a una cant
 <img width="460" alt="PreviewCheckoutDesktop" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/d5499c53-6c23-42dc-8dd4-d64cc96b3686">
 <img width="128" alt="PreviewCheckoutMobile" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/0b868e6d-6cef-415f-a5c8-bedb137dc822">
 
+##### 7) Home page
+<p>Preview Mockup</p>
+<img width="367" alt="MockupHomepage" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/003cbd55-e955-4cda-8d5c-1ee8e529d4c5">
+
+<br><p>Result</p>
+<img width="261" alt="PreviewHomepageDesktop1" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/fa5b0064-a8ed-4467-87cc-a45ae24f3db7">
+<img width="245" alt="PreviewHomepageDesktop2" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/abbf5999-d8a2-46ef-bb69-27874e0ad4f8">
+<img width="87" alt="PreviewHomepageMobile" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/c5e4921c-36b6-456c-bdb3-db339954a38a">
+
+
 #### Licencia (MIT License)
 
