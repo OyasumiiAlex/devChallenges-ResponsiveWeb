@@ -1,5 +1,3 @@
-### Features
-
 ![DevChallengesImg](https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/026cc45c-d661-4db6-8850-89df71800a0a)
 
 ##  Retos de diseño web responsivo
