@@ -1,11 +1,14 @@
-![UNACH Sitio Web con React](https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/026cc45c-d661-4db6-8850-89df71800a0a)
+### Features
+
+![DevChallengesImg](https://github.com/OyasumiiAlex/devChallenges-ResponsiveWeb/assets/44487342/026cc45c-d661-4db6-8850-89df71800a0a)
 
 ##  Retos de diseño web responsivo
 
 #### Descripción
-<p>Este repositorio contiene plantillas basada en la ruta de retos marcada por la página devChallenges.io</p>
-<p>Dicha ruta consiste en construir 8 plantillas con diseños predeterminados, aunque permite darle un <br>
-   toque personal modificando la paleta de colores y usando imagenes propias</p>
+<p>Este repositorio contiene plantillas basada en la ruta de retos marcada por la página devChallenges.io. Dicha ruta consiste en construir 8 plantillas con diseños predeterminados, aunque permite darle un toque personal modificando la paleta de colores y usando imagenes propias</p>
+<p> Para mas informacion acerca de cada reto, puede visitar el link de la página:</p>
+
+[DevChallengesWebResponsive](http://(http://legacy.devchallenges.io/paths/responsive-web-developer "DevChallengesWebResponsive")
 
 ## Acerca de las tecnologias implementadas
 
@@ -22,7 +25,7 @@
 <p> Se utiliza para gestionar eventos dinámicos, realizar cambios en la interfaz de usuario y adaptar el contenido según el tamaño de la pantalla.</p>
 
 #### Estado del Proyecto
-<p> En desarrollo </p>
+- <p> Finalizado </p>
 
 > [!IMPORTANT]
 > Antes de ejecutar tome en cuenta
@@ -84,25 +87,19 @@
 <img width="460" alt="MockupGallery" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/9da665ec-98d8-4e8a-a330-b386b5726766">
 
 <p>Result</p>
-<p>Existen dos resultados, poner en comparativa y aceptar en el que mejor convenga al caso de uso.<br>
-Para el primer resultado, no se limitó con el uso de un contenedor de ciertas dimensiones por lo que no se cumple con la historia de usuario, <br>
-la ventaja es que al no limitar con un contenedor y cierto margen, las imagenes son responsivas al tamaño de la ventana.<br>
-Al mismo tiempo no es necesario hacer un media query para adaptar el diseño responsivo a los dispositivos moviles.</p><br>
+<p>Existen dos resultados, poner en comparativa y aceptar en el que mejor convenga al caso de uso. Para el primer resultado, no se limitó con el uso de un contenedor de ciertas dimensiones por lo que no se cumple con la historia de usuario, la ventaja es que al no limitar con un contenedor y cierto margen, las imagenes son responsivas al tamaño de la ventana. Al mismo tiempo no es necesario hacer un media query para adaptar el diseño responsivo a los dispositivos moviles.</p><br>
 
 <img width="370" alt="PreviewDesktopGalleryV1" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/aa78d11e-0b84-49e6-a2a7-6000a37e90b6">
 <img width="105" alt="PreviewMobileGalleryV1" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/6d1a051a-a6a1-4fb4-a8ef-8eba15f195fd">
 
 
-<br><p>Desventaja: Se tiene que adaptar el orden de las imagenes si quieres que cumpla con tu contenedor principal (body), <br>
-ademas provee una desventaja con la cantidad de imagenes, es decir, si tienes un cantidad pequeña esta deja espacios entre ellos. Ejemplo: </p><br>
+<br><p>Desventaja: Se tiene que adaptar el orden de las imagenes si quieres que cumpla con tu contenedor principal (body), ademas provee una desventaja con la cantidad de imagenes, es decir, si tienes un cantidad pequeña esta deja espacios entre ellos. Ejemplo: </p><br>
 
 <img width="300" alt="PreviewErrorDesktop" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/fb2eac30-e5ef-4a27-80a9-bd5e379142c6">
 
 <br><p>Resultado 2 (cumple con la historia de usuario)</p>
-<p>Este resultado cumple con el requisito del mockup pero tambien necesita un orden de las imagenes, <br>
-ademas debes añadir un media query para adaptar el tamaño a dispositivo movil</p>
-<p>Desventaja: Este diseño al agregar una cantidad de imagenes mayor o no tener un orden de imagenes previeamente <br>
-se empieza a desbordar a travez de su contenedor por lo que se limita a una cantidad pequeña de imagenes</p>
+<p>Este resultado cumple con el requisito del mockup pero tambien necesita un orden de las imagenes, ademas debes añadir un media query para adaptar el tamaño a dispositivo movil.</p>
+<p>Desventaja: Este diseño al agregar una cantidad de imagenes mayor o no tener un orden de imagenes previeamente se empieza a desbordar a travez de su contenedor por lo que se limita a una cantidad pequeña de imagenes.</p>
 <br>
 <img width="400" alt="PreviewDesktopGalleryV2" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/749ae5bb-29cf-4b91-8b2c-6d310b8c08f3">
 <img width="107" alt="PreviewMobileGalleryV2" src="https://github.com/OyasumiiAlex/devChallenges-WebResponsive/assets/44487342/fc04c1e1-17ec-41c1-8008-eda33b342c0e">
@@ -128,4 +125,3 @@ se empieza a desbordar a travez de su contenedor por lo que se limita a una cant
 
 
 #### Licencia (MIT License)
-
