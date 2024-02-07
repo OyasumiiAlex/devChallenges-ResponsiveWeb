@@ -8,7 +8,7 @@
 <p>Este repositorio contiene plantillas basada en la ruta de retos marcada por la página devChallenges.io. Dicha ruta consiste en construir 8 plantillas con diseños predeterminados, aunque permite darle un toque personal modificando la paleta de colores y usando imagenes propias</p>
 <p> Para mas informacion acerca de cada reto, puede visitar el link de la página:</p>
 
-[DevChallengesWebResponsive](http://(http://legacy.devchallenges.io/paths/responsive-web-developer "DevChallengesWebResponsive")
+[DevChallengesWebResponsive](https://legacy.devchallenges.io/paths/responsive-web-developer "DevChallengesWebResponsive")
 
 ## Acerca de las tecnologias implementadas
 
